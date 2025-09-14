@@ -1,0 +1,8 @@
+function addHobby() {
+  const newHobby = prompt("Enter a new hobby:");
+  if (newHobby) {
+    const li = document.createElement("li");
+    li.textContent = newHobby;
+    document.getElementById("hobbyList").appendChild(li);
+  }
+}
